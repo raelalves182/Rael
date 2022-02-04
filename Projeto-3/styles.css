@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header, .footer{
+  background: #9ACD32;
+  height: 15vh;
+}
+
+.header,
+.article,
+.aside,
+.nav,
+.footer {
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.main > .article {
+  flex: 1;
+  order: 1;
+}
+
+.main > .aside {
+  background: #F5F5DC;
+  order: 2;
+}
+
+.main > .nav {
+  background: #D7E8D4;
+  order: 3;
+}
+
+.main > .aside, .main > .nav {
+  flex: 0 0 18vw;
+}
