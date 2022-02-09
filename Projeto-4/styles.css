@@ -5,27 +5,47 @@ body {
 
 .container {
   background: #FF4500;
-  height: 60px;
+  height: 53px;
   border-radius: 4px;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .nav ul {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .nav ul li a {
   text-decoration: none;
   margin-left: 20px;
+  color: white;
 }
 
 .form {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  position: relative;
+}
+
+.form input {
+  width: 270px;
+}
+
+.form button {
+  border-radius: 16px;
+  width: 40px;
+  height: 20px;
+  border: none;
+  color: #FF4500;
+}
+
+.form__item {
+  position: absolute;
+  transform: translate(-20px, -50px);
+  top: 15px;
 }
