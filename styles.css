@@ -11,14 +11,14 @@ body {
   align-items: center;
   margin: 0 auto;
   text-align: center;
-  background: turquoise;
+  background: steelblue;
 }
 
 .box {
   width: 300px;
   height: auto;
-  background: coral;
   border-radius: 10px;
+  background: url(gojo.jpg) no-repeat center;
 }
 
 ul {
