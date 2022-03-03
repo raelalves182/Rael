@@ -1,0 +1,20 @@
+body, a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: seagreen;
+}
+
+p {
+  font-size: 20px;
+}
+
+.today {
+  color: darkred;
+}
+
+.tomorrow {
+  color: darkblue;
+}
