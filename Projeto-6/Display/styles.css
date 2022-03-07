@@ -4,6 +4,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 0px;
   color: #FFF;
 }
 
@@ -20,12 +21,9 @@ P {
 .card {
   display: block;
   background-color: #111;
-  padding: 14px 30px 30px;
+  padding: 30px;
   border-radius: 4px;
-}
-
-.item {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .yellow {
