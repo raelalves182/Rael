@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  margin-top: 80px;
+  margin: 40px;
 }
 
 h2 {
@@ -36,4 +36,10 @@ button {
   padding: 10px;
   border: none;
   cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
